@@ -1,6 +1,7 @@
 services: 
   virt-manager:
-    image: mber5/virt-manager:latest
+    image: riklempens/virt-manager:latest
+    build: .
     restart: always
     ports:
       - 8185:80

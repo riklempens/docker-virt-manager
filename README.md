@@ -69,9 +69,15 @@ services:
       # - /home/user/.ssh/id_rsa:/root/.ssh/id_rsa:ro
 ```
 ### Building from Dockerfile
+
 ```bash
-    git clone https://github.com/m-bers/docker-virt-manager.git
-    cd docker-virt-manager
-    docker build -t docker-virt-manager . && docker-compose up -d
+docker compose build
 ```
+
+### start
+
+```bash
+docker compose up -d
+```
+
 Go to http://localhost:8185 in your browser
